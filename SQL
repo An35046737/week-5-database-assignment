@@ -1,0 +1,3 @@
+SHOW wal_level;
+SHOW archive_mode;
+SHOW archive_command;
