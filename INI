@@ -1,0 +1,5 @@
+wal_level = replica
+
+archive_mode = on
+
+archive_command = 'cmd /c copy /Y "%p" "C:/Users/YOUR_USERNAME/backups/wal/%f" > NUL'
